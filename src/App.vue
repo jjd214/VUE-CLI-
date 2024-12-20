@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Essentials from './components/Essentials.vue'
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
@@ -14,7 +13,7 @@ import Essentials from './components/Essentials.vue'
   </header>
 
   <main>
-    <Essentials />
+    <TodoList />
   </main>
 </template>
 
